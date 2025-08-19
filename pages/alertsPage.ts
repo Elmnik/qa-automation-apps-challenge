@@ -4,7 +4,7 @@ export class AlertsPage {
   constructor(private page: Page) {}
 
   async navigateToAlerts() {
-    // Vamos directamente a la página de alerts para evitar problemas con el menú
+    // Vamos directamente a la página de alerts
     await this.page.goto('https://demoqa.com/alerts');
     
     // Esperamos a que el botón esté visible

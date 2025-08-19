@@ -1,17 +1,14 @@
 {
   "name": "qa-automation-apps-challenge",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "QA Automation Challenge with Playwright and TypeScript",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx playwright test",
+    "report": "npx playwright show-report"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.54.2",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.2"
+    "@playwright/test": "^1.48.2",
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.2"
   }
 }
